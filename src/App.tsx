@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="flex items-top gap-[150px] mt-24 ms-12 max-w-4xl">
+      <div className="flex items-top gap-[150px] mt-24 ms-12 max-w-6xl">
         <Sidebar />
         <Routes>
           <Route element={<Mainbar />}>

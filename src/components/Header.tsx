@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="max-w-4xl mt-12 ms-12 flex items-center gap-[160px] font-semibold">
+    <div className="max-w-6xl mt-12 ms-12 flex items-center gap-[160px] font-semibold">
       <NavLink to="/">
         <img
           src="https://avatars.githubusercontent.com/u/27155389?..."
