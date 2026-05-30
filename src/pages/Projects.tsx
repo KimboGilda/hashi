@@ -24,7 +24,7 @@ const Projects = () => {
               />
             </a>
 
-            <p className="text-xs mt-2 text-gray-600 leading-relaxed">
+            <p className="text-[15px] mt-2 text-gray-600 leading-7">
               {pr.description}
             </p>
 
@@ -36,7 +36,7 @@ const Projects = () => {
                 className="inline-flex items-center gap-2 text-gray-700 hover:text-black transition"
               >
                 <FaGithub className="w-4 h-4" />
-                <span className="text-xs">Code</span>
+                <span className="text-sm">Code</span>
               </a>
 
               <div className="flex flex-wrap gap-2 text-xs">

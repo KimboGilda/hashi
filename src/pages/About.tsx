@@ -1,50 +1,41 @@
 const About = () => {
   return (
-    <div className="flex flex-col h-full">
-      <p className=" font-light antialiased text-justify">
-        I’m a GIS developer based in Switzerland.
-        <br />I hold an M.Sc. in Geomatics from{" "}
+    <div className="max-w-2xl space-y-5 text-gray-700 text-[15px] leading-7">
+      <p>
+        I’m a GIS developer based in Switzerland working at the intersection of
+        spatial data, cartography, and modern web applications.
+      </p>
+
+      <p>
+        I hold an M.Sc. in Geomatics from{" "}
         <a
           href="https://ethz.ch/en.html"
           target="_blank"
           rel="noopener noreferrer"
-          className="underline text-blue-900"
+          className="text-gray-900 underline decoration-gray-300 hover:decoration-green-500 transition"
         >
           ETH Zürich
         </a>{" "}
-        and work at the intersection of GIS, spatial data, and modern web
-        development.
-        <br />
-        I’ve worked across both academia and industry, including roles at{" "}
+        and have worked across academia and industry, including{" "}
         <a
           href="https://leica-geosystems.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline text-blue-900"
+          className="text-gray-900 underline decoration-gray-300 hover:decoration-green-500 transition"
         >
           Leica Geosystems
-        </a>
-        ,{" "}
+        </a>{" "}
+        and{" "}
         <a
           href="https://www.zhaw.ch/en/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline text-blue-900"
+          className="text-gray-900 underline decoration-gray-300 hover:decoration-green-500 transition"
         >
           ZHAW
         </a>
-        , and currently at{" "}
-        <a
-          href="https://rawi.lu.ch/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline text-blue-900"
-        >
-          Raum und Wirtschaft (rawi)
-        </a>
-        , the spatial planning and geoinformation department of Kanton Luzern.
-        <br />I build scalable, user-focused geospatial applications — combining
-        cartography, spatial analysis, and full-stack development.
+        .
+      </p>
+
+      <p>
+        I build scalable geospatial applications combining GIS analysis, mapping
+        systems, and full-stack engineering.
       </p>
     </div>
   );

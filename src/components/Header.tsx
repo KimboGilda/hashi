@@ -1,4 +1,4 @@
-import { Moon } from "lucide-react";
+import { HiOutlineDocumentDownload } from "react-icons/hi";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
@@ -14,9 +14,17 @@ const Header = () => {
 
       <p className="text-xl tracking-wide font-bold">Nikos Bakogiannis</p>
 
-      <button className="ml-auto p-2 rounded-full hover:bg-gray-100 transition text-gray-700 hover:text-gray-900">
-        <Moon size={20} />
-      </button>
+      <a
+        href="https://kimbogilda.github.io/my-cv/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="ml-auto"
+      >
+        <div className="inline-flex items-center gap-1 border p-0.5 border border-gray-300 rounded-md text-gray-500 hover:text-green-500 hover:border-green-400 transition-colors">
+          <HiOutlineDocumentDownload className="w-4 h-4" />
+          <span className="text-xs">CV</span>
+        </div>
+      </a>
     </div>
   );
 };

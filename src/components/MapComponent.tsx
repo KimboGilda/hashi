@@ -9,11 +9,11 @@ const MapComponent = () => {
   useEffect(() => {
     if (!mapRef.current || mapInstanceRef.current) return;
 
-    const center: [number, number] = [47.498, 8.724]; // Winterthur
+    const center: [number, number] = [47.52, 8.74];
 
     const map = L.map(mapRef.current, {
       center,
-      zoom: 13,
+      zoom: 12.5,
       zoomControl: false,
       scrollWheelZoom: false,
       dragging: false,

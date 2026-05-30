@@ -7,7 +7,7 @@ const Experience = () => {
         Experience
       </p>
 
-      <p className="text-sm text-gray-500 mb-5">
+      <p className="text-[15px] text-gray-500 mb-5 leading-7">
         Skill level:
         <span className="ml-2 px-2 py-1 bg-gray-900 text-white rounded-full text-xs">
           Core
@@ -26,7 +26,7 @@ const Experience = () => {
             key={group.category}
             className="border rounded-lg p-4 shadow-sm bg-white"
           >
-            <p className="text-sm font-bold mb-3 text-gray-900">
+            <p className="text-[15px] font-bold mb-3 text-gray-900">
               {group.category}
             </p>
 
