@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 const Mainbar = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col h-full">
       <Outlet />
     </div>
   );

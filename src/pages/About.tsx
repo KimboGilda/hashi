@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col h-full">
       <p className=" font-light antialiased text-justify">
         I’m a GIS developer based in Switzerland.
         <br />I hold an M.Sc. in Geomatics from{" "}
@@ -45,9 +45,6 @@ const About = () => {
         , the spatial planning and geoinformation department of Kanton Luzern.
         <br />I build scalable, user-focused geospatial applications — combining
         cartography, spatial analysis, and full-stack development.
-      </p>
-      <p className="mt-auto mb-18">
-        © 2026 Nikos Bakogiannis. All rights reserved.
       </p>
     </div>
   );

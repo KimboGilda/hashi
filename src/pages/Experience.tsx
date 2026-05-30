@@ -3,7 +3,7 @@ import { skillGroups } from "../data/skills";
 const Experience = () => {
   return (
     <div>
-      <p className="text-lg mb-5 font-semibold tracking-wide text-gray-900">
+      <p className="text-lg mb-5 font-semibold tracking-wide text-green-600">
         Experience
       </p>
 
