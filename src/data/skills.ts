@@ -1,49 +1,51 @@
+export type SkillLevel = "core" | "advanced" | "familiar";
+
 export interface SkillGroup {
-  category: string
-  skills: { name: string; highlight: boolean }[]
+  category: string;
+  skills: { name: string; level: SkillLevel }[];
 }
 
 export const skillGroups: SkillGroup[] = [
   {
-    category: 'Frontend',
+    category: "Frontend",
     skills: [
-      { name: 'React',                  highlight: true  },
-      { name: 'TypeScript',             highlight: true  },
-      { name: 'Leaflet / React-Leaflet',highlight: true  },
-      { name: 'ArcGIS Maps SDK JS',     highlight: true  },
-      { name: 'JavaScript (ES6+)',      highlight: true },
-      { name: 'Tailwind CSS',           highlight: true },
+      { name: "React", level: "core" },
+      { name: "TypeScript", level: "core" },
+      { name: "Leaflet / React-Leaflet", level: "core" },
+      { name: "ArcGIS Maps SDK JS", level: "core" },
+      { name: "JavaScript (ES6+)", level: "core" },
+      { name: "Tailwind CSS", level: "corex" },
     ],
   },
   {
-    category: 'Backend',
+    category: "Backend",
     skills: [
-      { name: 'Ruby on Rails', highlight: true  },
-      { name: 'Python',        highlight: true  },
-      { name: 'REST API Design',highlight: true },
-      { name: 'GeoPandas',     highlight: true },
-      { name: 'Shapely',       highlight: true },
-      { name: 'FastAPI',       highlight: false },
+      { name: "Ruby on Rails", level: "core" },
+      { name: "Python", level: "core" },
+      { name: "REST API Design", level: "advanced" },
+      { name: "GeoPandas", level: "advanced" },
+      { name: "Shapely", level: "advanced" },
+      { name: "FastAPI", level: "familiar" },
     ],
   },
   {
-    category: 'Databases / Spatial',
+    category: "Databases / Spatial",
     skills: [
-      { name: 'PostgreSQL / PostGIS', highlight: true  },
-      { name: 'Oracle',       highlight: true  },
-      { name: 'GeoJSON / WKT',        highlight: true },
+      { name: "PostgreSQL / PostGIS", level: "core" },
+      { name: "Oracle", level: "advanced" },
+      { name: "GeoJSON / WKT", level: "advanced" },
     ],
   },
   {
-    category: 'Platforms / Tools',
+    category: "Platforms / Tools",
     skills: [
-      { name: 'ArcGIS Online / Pro', highlight: true  },
-      { name: 'QGIS',                 highlight: true },
-      { name: 'GDAL / OGR',           highlight: true },
-      { name: 'Git / GitHub',        highlight: true },
-      { name: 'Docker',        highlight: false },
-      { name: 'Vercel',    highlight: false },
-      { name: 'Linux / Bash',        highlight: true },
+      { name: "ArcGIS Online / Pro", level: "core" },
+      { name: "QGIS", level: "core" },
+      { name: "GDAL / OGR", level: "core" },
+      { name: "Git / GitHub", level: "core" },
+      { name: "Docker", level: "familiar" },
+      { name: "Vercel", level: "familiar" },
+      { name: "Linux / Bash", level: "advanced" },
     ],
   },
-]
+];
