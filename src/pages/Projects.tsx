@@ -10,10 +10,7 @@ const Projects = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3 items-stretch">
         {projects.map((pr) => (
-          <div
-            key={pr.title}
-            className="border rounded-lg p-4 shadow-sm bg-white flex flex-col h-[420px]"
-          >
+          <div className="border rounded-lg p-4 bg-white flex flex-col h-auto">
             <p className="text-sm font-bold mb-2">{pr.title}</p>
 
             <a href={pr.link} target="_blank" rel="noopener noreferrer">
@@ -24,7 +21,7 @@ const Projects = () => {
               />
             </a>
 
-            <p className="text-[15px] mt-2 text-gray-600 leading-7">
+            <p className="text-xs mt-2 text-gray-600 leading-7">
               {pr.description}
             </p>
 
