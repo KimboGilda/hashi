@@ -32,7 +32,7 @@ export const skillGroups: SkillGroup[] = [
     category: "Databases / Spatial",
     skills: [
       { name: "PostgreSQL / PostGIS", level: "core" },
-      { name: "Oracle", level: "advanced" },
+      { name: "Oracle", level: "core" },
       { name: "GeoJSON / WKT", level: "advanced" },
     ],
   },

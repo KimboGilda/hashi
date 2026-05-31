@@ -9,13 +9,34 @@ const Sidebar = () => {
   return (
     <div className="flex flex-col gap-3 max-w-[80px] text-sm">
       <NavLink to="/" end className={linkClass}>
-        About me
+        {({ isActive }) => (
+          <span className="relative">
+            {isActive && (
+              <span className="absolute -left-3.5 top-1/2 -translate-y-1/2 w-1.5 h-1.5 rounded-full bg-green-600" />
+            )}
+            About me
+          </span>
+        )}
       </NavLink>
       <NavLink to="/Experience" className={linkClass}>
-        Experience
+        {({ isActive }) => (
+          <span className="relative">
+            {isActive && (
+              <span className="absolute -left-3.5 top-1/2 -translate-y-1/2 w-1.5 h-1.5 rounded-full bg-green-600" />
+            )}
+            Experience
+          </span>
+        )}
       </NavLink>
       <NavLink to="/Projects" className={linkClass}>
-        Projects
+        {({ isActive }) => (
+          <span className="relative">
+            {isActive && (
+              <span className="absolute -left-3.5 top-1/2 -translate-y-1/2 w-1.5 h-1.5 rounded-full bg-green-600" />
+            )}
+            Projects
+          </span>
+        )}
       </NavLink>
     </div>
   );

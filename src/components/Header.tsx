@@ -3,16 +3,16 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="max-w-6xl mt-12 ms-12 flex items-center gap-[160px] font-semibold text-gray-900">
+    <div className="max-w-6xl mt-12 ms-12 flex items-end gap-[167px] font-semibold text-gray-900 pb-1 border-b border-gray-200">
       <NavLink to="/">
         <img
           src="https://avatars.githubusercontent.com/u/27155389?..."
           alt="logo-test"
-          className="w-[60px] h-[60px] rounded-full object-cover ring-2 ring-gray-200 shadow-sm hover:shadow-md transition"
+          className="w-[50px] h-[50px] rounded-full object-cover ring-2 ring-gray-200 shadow-sm"
         />
       </NavLink>
 
-      <p className="text-xl tracking-wide font-bold">Nikos Bakogiannis</p>
+      <p className="text-normal tracking-wide font-bold">Nikos Bakogiannis</p>
 
       <a
         href="https://kimbogilda.github.io/my-cv/"
