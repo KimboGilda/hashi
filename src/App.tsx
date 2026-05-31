@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
 import MapComponent from "./components/MapComponent";
+import { FaGithub, FaEnvelope } from "react-icons/fa";
 
 function App() {
   return (
@@ -23,9 +24,21 @@ function App() {
           </Route>
         </Routes>
       </div>
-      <p className="mt-auto text-sm font-light">
-        © 2026 Nikos Bakogiannis. All rights reserved.
-      </p>
+      <div className="flex gap-4 mt-auto text-xs font-light mb-2 ms-2">
+        <p>© 2026 Nikos Bakogiannis. All rights reserved.</p>
+        <span className="text-gray-400">|</span>
+        <a
+          href="https://github.com/KimboGilda"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub className="w-4 h-4" />
+        </a>
+
+        <a href="mailto:n.bakogiannis@outlook.com">
+          <FaEnvelope className="w-4 h-4" />
+        </a>
+      </div>
     </div>
   );
 }
