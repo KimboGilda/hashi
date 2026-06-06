@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div className="max-w-2xl space-y-5 text-gray-700 text-[15px] leading-7">
       <p>
-        I'm a GIS developer based in Switzerland working at the intersection of
+        I am a GIS developer based in Switzerland working at the intersection of
         spatial data, cartography, and modern web applications.
       </p>
 
