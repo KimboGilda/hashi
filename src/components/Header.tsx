@@ -15,7 +15,7 @@ const Header = () => {
       <p className="text-normal tracking-wide font-bold">Nikos Bakogiannis</p>
 
       <a
-        href="https://kimbogilda.github.io/my-cv/"
+        href="https://kimbogilda.github.io/cv_nikosbako/"
         target="_blank"
         rel="noopener noreferrer"
         className="ml-auto"
