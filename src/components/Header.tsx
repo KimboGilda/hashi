@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="max-w-6xl mt-12 ms-12 flex items-end gap-[167px] font-semibold text-gray-900 pb-1 border-b border-gray-200">
+    <div className="mx-auto flex w-full max-w-6xl items-center gap-4 border-b border-gray-200 px-4 pb-3 pt-12 font-semibold text-gray-900 sm:px-8">
       <NavLink to="/">
         <img
           src="https://avatars.githubusercontent.com/u/27155389?..."
@@ -12,7 +12,9 @@ const Header = () => {
         />
       </NavLink>
 
-      <p className="text-normal tracking-wide font-bold">Nikos Bakogiannis</p>
+      <p className="text-normal self-center tracking-wide font-bold leading-none">
+        Nikos Bakogiannis
+      </p>
 
       <a
         href="https://kimbogilda.github.io/cv_nikosbako/"

@@ -10,11 +10,11 @@ import { FaGithub, FaEnvelope } from "react-icons/fa";
 
 function App() {
   return (
-    <div className="h-screen overflow-hidden flex flex-col">
+    <div className="min-h-screen overflow-x-hidden flex flex-col">
       <MapComponent />
       <Header />
 
-      <div className="flex items-top gap-[150px] mt-24 ms-12 max-w-6xl flex-1 min-h-0">
+      <main className="flex flex-1 min-h-0 w-full max-w-6xl flex-col gap-10 px-4 pt-24 pb-8 sm:px-8 lg:flex-row lg:items-start lg:gap-[150px] lg:mx-auto">
         <Sidebar />
         <Routes>
           <Route element={<Mainbar />}>
@@ -23,8 +23,8 @@ function App() {
             <Route path="projects" element={<Projects />} />
           </Route>
         </Routes>
-      </div>
-      <div className="flex gap-4 mt-auto text-xs font-light mb-2 ms-2">
+      </main>
+      <div className="mx-auto flex w-full max-w-6xl gap-4 px-4 pb-2 text-xs font-light sm:px-8">
         <p>© 2026 Nikos Bakogiannis. All rights reserved.</p>
         <span className="text-gray-400">|</span>
         <a

@@ -10,7 +10,7 @@ const Projects = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3 items-stretch">
         {projects.map((pr) => (
-          <div className="border rounded-lg p-4 bg-white flex flex-col h-auto">
+          <div className="border rounded-lg p-4 bg-white flex h-full flex-col">
             <p className="text-sm font-bold mb-2">{pr.title}</p>
 
             <a href={pr.link} target="_blank" rel="noopener noreferrer">
@@ -21,11 +21,11 @@ const Projects = () => {
               />
             </a>
 
-            <p className="text-xs mt-2 text-gray-600 leading-7">
+            <p className="text-xs mt-2 flex-1 text-gray-600 leading-6">
               {pr.description}
             </p>
 
-            <div className="mt-auto pt-3 border-t border-gray-100 flex flex-col gap-2">
+            <div className="mt-4 pt-3 border-t border-gray-100 flex flex-col gap-2">
               <a
                 href={pr.repo}
                 target="_blank"
@@ -40,7 +40,7 @@ const Projects = () => {
                 {pr.tags.map((tag, index) => (
                   <span
                     key={index}
-                    className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full whitespace-nowrap shrink-0"
+                    className="px-2 py-0.5 bg-gray-100 text-[10px] text-gray-700 rounded-full whitespace-nowrap shrink-0"
                   >
                     {tag}
                   </span>
