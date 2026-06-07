@@ -24,6 +24,16 @@ export const projects: Project[] = [
     repo: "https://github.com/KimboGilda/greece-environmental-monitor",
   },
   {
+    id: "exploring-athens",
+    title: "Exploring Athens",
+    description: `A lightweight web app built with HTML, CSS, and JavaScript to help users discover the best spots to eat, drink, grab a coffee, or sightsee in Athens.`,
+    tags: ["HTML", "Javascript", "TailwindCSS"],
+    highlight: true,
+    image: "athens_guide.png",
+    link: "https://bako-misc.github.io/exploring_athens/",
+    repo: "https://github.com/Bako-Misc/exploring_athens",
+  },
+  {
     id: "athens-mobility-dashboard",
     title: "Athens Urban Mobility Dashboard",
     description: `Interactive transit map of Athens built with React,
