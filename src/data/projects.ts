@@ -46,4 +46,16 @@ export const projects: Project[] = [
     link: "https://kimbogilda.github.io/athens-mobility-dashboard/",
     repo: "https://github.com/KimboGilda/athens-mobility-dashboard",
   },
+  {
+    id: "movie-search",
+    title: "Movie Search App",
+    description: `A responsive movie discovery app built with React and TypeScript,
+    powered by the TMDB API. Users can browse popular movies,
+    search by title, and save favorites that persist across sessions.`,
+    tags: ["React", "TypeScript", "Mobx"],
+    highlight: true,
+    image: "movie-search.png",
+    link: "https://kimbogilda.github.io/movies_kimbogilda/",
+    repo: "https://github.com/KimboGilda/movies_kimbogilda",
+  },
 ];
