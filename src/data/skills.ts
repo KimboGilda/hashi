@@ -14,7 +14,7 @@ export const skillGroups: SkillGroup[] = [
       { name: "Leaflet / React-Leaflet", level: "core" },
       { name: "ArcGIS Maps SDK JS", level: "core" },
       { name: "JavaScript (ES6+)", level: "core" },
-      { name: "Tailwind CSS", level: "corex" },
+      { name: "Tailwind CSS", level: "core" },
     ],
   },
   {
