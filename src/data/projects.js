@@ -1,3 +1,4 @@
+import athensMob from "../assets/athens_mob.png";
 export const projects = [
     {
         id: "swiss-density",
@@ -38,7 +39,7 @@ export const projects = [
       live from the Overpass API.`,
         tags: ["Leaflet", "MarkerCluster", "OSM"],
         highlight: false,
-        image: "athens_mob.png",
+        image: athensMob,
         link: "https://kimbogilda.github.io/athens-mobility-dashboard/",
         repo: "https://github.com/KimboGilda/athens-mobility-dashboard",
     },

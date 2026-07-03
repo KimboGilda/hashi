@@ -1,4 +1,9 @@
 import type { Project } from "../types";
+import athensMob from "../assets/athens_mob.png";
+import movieSearch from "../assets/movie-search.png";
+import swissDensity from "../assets/swiss-density.png";
+import greeceEnv from "../assets/greece-env.png";
+import athensGuide from "../assets/athens_guide.png";
 
 export const projects: Project[] = [
   {
@@ -9,7 +14,7 @@ export const projects: Project[] = [
     tags: ["Leaflet", "React", "GeoJSON"],
     highlight: true,
     link: "https://kimbogilda.github.io/swiss-canton-density-map/",
-    image: "/public/swiss-density.png",
+    image: swissDensity,
     repo: "https://github.com/kimbogilda/swiss-canton-density-map",
   },
   {
@@ -20,7 +25,7 @@ export const projects: Project[] = [
     tags: ["Leaflet", "React", "REST API"],
     highlight: false,
     link: "https://kimbogilda.github.io/greece-environmental-monitor/",
-    image: "greece-env.png",
+    image: greeceEnv,
     repo: "https://github.com/KimboGilda/greece-environmental-monitor",
   },
   {
@@ -29,7 +34,7 @@ export const projects: Project[] = [
     description: `A lightweight web app built with HTML, CSS, and JavaScript to help users discover the best spots to eat, drink, grab a coffee, or sightsee in Athens.`,
     tags: ["HTML", "Javascript", "TailwindCSS"],
     highlight: true,
-    image: "athens_guide.png",
+    image: athensGuide,
     link: "https://kimbogilda.github.io/exploring_athens/",
     repo: "https://github.com/KimboGilda/exploring_athens",
   },
@@ -42,7 +47,7 @@ export const projects: Project[] = [
       live from the Overpass API.`,
     tags: ["Leaflet", "MarkerCluster", "OSM"],
     highlight: false,
-    image: "athens_mob.png",
+    image: athensMob,
     link: "https://kimbogilda.github.io/athens-mobility-dashboard/",
     repo: "https://github.com/KimboGilda/athens-mobility-dashboard",
   },
@@ -54,7 +59,7 @@ export const projects: Project[] = [
     search by title, and save favorites that persist across sessions.`,
     tags: ["React", "TypeScript", "Mobx"],
     highlight: true,
-    image: "movie-search.png",
+    image: movieSearch,
     link: "https://kimbogilda.github.io/movies_kimbogilda/",
     repo: "https://github.com/KimboGilda/movies_kimbogilda",
   },
