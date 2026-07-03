@@ -30,8 +30,8 @@ export const projects: Project[] = [
     tags: ["HTML", "Javascript", "TailwindCSS"],
     highlight: true,
     image: "athens_guide.png",
-    link: "https://bako-misc.github.io/exploring_athens/",
-    repo: "https://github.com/Bako-Misc/exploring_athens",
+    link: "https://kimbogilda.github.io/exploring_athens/",
+    repo: "https://github.com/KimboGilda/exploring_athens",
   },
   {
     id: "athens-mobility-dashboard",
